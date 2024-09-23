@@ -1,0 +1,6 @@
+@Achilles_HostAddress = http://localhost:5067
+
+GET {{Achilles_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

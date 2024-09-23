@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achilles", "Achilles\Achilles.csproj", "{DC933334-1DB7-41A5-8E4F-E8CE95848DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achilles.Core", "Achilles.Core\Achilles.Core.csproj", "{361E8896-7E1D-47CC-8108-0CA68FC5359A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC933334-1DB7-41A5-8E4F-E8CE95848DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC933334-1DB7-41A5-8E4F-E8CE95848DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC933334-1DB7-41A5-8E4F-E8CE95848DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC933334-1DB7-41A5-8E4F-E8CE95848DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361E8896-7E1D-47CC-8108-0CA68FC5359A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361E8896-7E1D-47CC-8108-0CA68FC5359A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361E8896-7E1D-47CC-8108-0CA68FC5359A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361E8896-7E1D-47CC-8108-0CA68FC5359A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {381C61EF-E876-463D-B39A-C8391E03AF31}
+	EndGlobalSection
+EndGlobal
