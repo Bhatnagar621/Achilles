@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achilles", "Achilles\Achilles.csproj", "{DC933334-1DB7-41A5-8E4F-E8CE95848DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Achilles", "Achilles\Achilles.csproj", "{DC933334-1DB7-41A5-8E4F-E8CE95848DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achilles.Core", "Achilles.Core\Achilles.Core.csproj", "{361E8896-7E1D-47CC-8108-0CA68FC5359A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Achilles.Core", "Achilles.Core\Achilles.Core.csproj", "{361E8896-7E1D-47CC-8108-0CA68FC5359A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FC10327A-5265-4DC4-9590-85425D7BF08C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersonService", "PersonService", "{95A07931-3866-4562-91DC-2C7533DD068D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.API", "PErsonService.API\PersonService.API.csproj", "{969E5D87-4E1F-48F3-BF1A-6E2BEC231481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.Core", "PersonService.Core\PersonService.Core.csproj", "{C642C33D-CE9E-460F-B8FB-898DC73D95D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.Infrastructure", "PersonService.Infrastructure\PersonService.Infrastructure.csproj", "{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +31,27 @@ Global
 		{361E8896-7E1D-47CC-8108-0CA68FC5359A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{361E8896-7E1D-47CC-8108-0CA68FC5359A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{361E8896-7E1D-47CC-8108-0CA68FC5359A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969E5D87-4E1F-48F3-BF1A-6E2BEC231481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969E5D87-4E1F-48F3-BF1A-6E2BEC231481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969E5D87-4E1F-48F3-BF1A-6E2BEC231481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969E5D87-4E1F-48F3-BF1A-6E2BEC231481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C642C33D-CE9E-460F-B8FB-898DC73D95D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C642C33D-CE9E-460F-B8FB-898DC73D95D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C642C33D-CE9E-460F-B8FB-898DC73D95D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C642C33D-CE9E-460F-B8FB-898DC73D95D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95A07931-3866-4562-91DC-2C7533DD068D} = {FC10327A-5265-4DC4-9590-85425D7BF08C}
+		{969E5D87-4E1F-48F3-BF1A-6E2BEC231481} = {95A07931-3866-4562-91DC-2C7533DD068D}
+		{C642C33D-CE9E-460F-B8FB-898DC73D95D4} = {95A07931-3866-4562-91DC-2C7533DD068D}
+		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E} = {95A07931-3866-4562-91DC-2C7533DD068D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {381C61EF-E876-463D-B39A-C8391E03AF31}
