@@ -11,11 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersonService", "PersonService", "{95A07931-3866-4562-91DC-2C7533DD068D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.API", "PErsonService.API\PersonService.API.csproj", "{969E5D87-4E1F-48F3-BF1A-6E2BEC231481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonService.API", "PErsonService.API\PersonService.API.csproj", "{969E5D87-4E1F-48F3-BF1A-6E2BEC231481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.Core", "PersonService.Core\PersonService.Core.csproj", "{C642C33D-CE9E-460F-B8FB-898DC73D95D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonService.Core", "PersonService.Core\PersonService.Core.csproj", "{C642C33D-CE9E-460F-B8FB-898DC73D95D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonService.Infrastructure", "PersonService.Infrastructure\PersonService.Infrastructure.csproj", "{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonService.Infrastructure", "PersonService.Infrastructure\PersonService.Infrastructure.csproj", "{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{BD364335-B05C-41A2-84FF-722FAC016F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achilles.Infrastructure", "Achilles.Infrastructure\Achilles.Infrastructure.csproj", "{8D932918-8309-4550-9B35-19D93F7B0627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,14 @@ Global
 		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD364335-B05C-41A2-84FF-722FAC016F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD364335-B05C-41A2-84FF-722FAC016F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD364335-B05C-41A2-84FF-722FAC016F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD364335-B05C-41A2-84FF-722FAC016F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D932918-8309-4550-9B35-19D93F7B0627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D932918-8309-4550-9B35-19D93F7B0627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D932918-8309-4550-9B35-19D93F7B0627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D932918-8309-4550-9B35-19D93F7B0627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +64,7 @@ Global
 		{969E5D87-4E1F-48F3-BF1A-6E2BEC231481} = {95A07931-3866-4562-91DC-2C7533DD068D}
 		{C642C33D-CE9E-460F-B8FB-898DC73D95D4} = {95A07931-3866-4562-91DC-2C7533DD068D}
 		{C5BE5CBE-7FF3-4632-8A26-02D09D340E0E} = {95A07931-3866-4562-91DC-2C7533DD068D}
+		{BD364335-B05C-41A2-84FF-722FAC016F8B} = {FC10327A-5265-4DC4-9590-85425D7BF08C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {381C61EF-E876-463D-B39A-C8391E03AF31}

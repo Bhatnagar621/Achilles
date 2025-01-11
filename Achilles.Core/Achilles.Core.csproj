@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="Impl\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="DbContexts\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
